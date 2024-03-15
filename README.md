@@ -22,6 +22,7 @@ console.log(`A subtracao dos números é ${numero1 - numero2}`);
 console.log(`A divisao dos números é ${numero1 / numero2}`);
 console.log(`A multiplicacao dos números é ${numero1 * numero2}`);
 console.log(`O resto ds divisao dos números é ${numero1 % numero2}`);
+console.log(`O numero1 elevado à potência do número2 é ${numero1 ** numero2}`);
 
 ~~~
 
@@ -70,3 +71,31 @@ Operadores de atribuição:
 * `--` -> atribuição com **decremento 1** (pode ser *pré* ou *pós* decremento)
           Ex.: `numero --` (pós-decremento) ou  `-- numero` (pré-decremento) 
 
+## operadores-comparacao.js
+
+Neste arquivo conhecemos os operadores de comparação e a estrutura lógica de decisão **if-else**.
+
+~~~js
+ if(condicao){
+        console.log(`VERDADEIRO`);
+     }  else {
+        console.log(`FALSO`);
+     }
+     ~~~
+
+     Esta estrutura exibe no console se a condição testada é verdadeira ou falsa. A condição armazena o resultado da **comparação entre duas variáveis**, como segue:
+
+        ~~~js
+         * Operadores de comparacao
+     * != não é igual = NÃO
+     * == é igual
+     * >  maior que
+     * <  menor que        
+      >= maior ou igual
+    * <= menor ou igual
+    * === é estritamente igual (valor E tipo)
+    * !== não é estritamente igual (valor E tipo)
+    ~~~
+
+
+     

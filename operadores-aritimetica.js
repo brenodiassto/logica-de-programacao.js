@@ -1,5 +1,5 @@
 const numero1 = 40;
-const numero2 = 20;
+const numero2 = 2;
 
 const soma = numero1 + numero2;
 
@@ -19,6 +19,8 @@ console.log(`A subtracao dos números é ${numero1 - numero2}`);
 console.log(`A divisao dos números é ${numero1 / numero2}`);
 console.log(`A multiplicacao dos números é ${numero1 * numero2}`);
 console.log(`O resto ds divisao dos números é ${numero1 % numero2}`);
+console.log(`O numero1 elevado à potência do número2 é ${numero1 **numero2}`);
+
 
 
 
