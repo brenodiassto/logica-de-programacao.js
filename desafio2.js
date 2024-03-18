@@ -15,13 +15,70 @@
 //35,0 - 39,9	Obesidade grau II
 //Acima de 40,0	Obesidade grau III
 
+//teste de mesa
 
-const 
+// declaração sem atribuição (só com let)
 
-window.prompt('Tabela IMC');
+let Altura: window.prompt ('Digite sua Altura:');
+let Peso: window.prompt('Digite seu Peso:');
 
-if(<= 18.5) {
-    console.log('Abaixo do Peso')
-};
+let
+altura = 1.65,
+peso = 72,
+
+const imc = peso / altura ** 2;
+imc = 19.1
 
 
+//ou altura *2 = ;
+
+
+// ou colocar
+//if (imc < 18.5) {
+//    console.log(`IMC: ${imc.toFixed(1)} -- Abaixo do Peso`);
+
+//} else if ( imc < 25) {
+   // console.log(`IMC: ${imc.toFixed(1)} -- Peso normal`);
+
+//} else if ( imc < 30 ) {
+   // console.log(`IMC: ${imc.toFixed(1)} -- Sobrepeso`);
+
+//} else if ( imc< 35) {
+    //console.log(`IMC: ${imc.toFixed(1)} -- Obesidade grau I`);
+//} else if (imc < 40 ) {
+  //  console.log(`IMC: ${imc.toFixed(1)} -- Obesidade grau II`);
+//} else {(imc > 40.0 ) 
+  //  console.log(`IMC: ${imc.toFixed(1)} -- Obesidade grau III`);
+
+//}
+
+
+
+if (imc < 18.5) {
+    windoow.alert(`IMC: ${imc.toFixed(1)} -- Abaixo do Peso`);
+
+} else if (imc >= 18.5 && imc < 25) {
+    windoow.alert(`IMC: ${imc.toFixed(1)} -- Peso normal`);
+
+} else if (imc >= 25.0 && imc < 30 ) {
+    windoow.alert(`IMC: ${imc.toFixed(1)} -- Sobrepeso`);
+
+} else if (imc >= 30.0  && imc< 35) {
+    windoow.alert(`IMC: ${imc.toFixed(1)} -- Obesidade grau I`);
+} else if (imc >= 35.0 && imc < 40 ) {
+    windoow.alert(`IMC: ${imc.toFixed(1)} -- Obesidade grau II`);
+} else {(imc > 40.0 ) 
+    windoow.alert(`IMC: ${imc.toFixed(1)} -- Obesidade grau III`);
+
+}
+
+
+//if( ) {
+//   console.log();
+//    } 
+//    else if (){
+//        console.log()
+//    }
+//    else {
+//        console.log();
+//    }
