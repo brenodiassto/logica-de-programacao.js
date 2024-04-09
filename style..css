@@ -1,0 +1,57 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap')
+</style>
+
+*{
+
+}
+
+body {
+    font-family: 'Unbutu' , sans-serif;
+    background-color: #fff
+
+      
+}
+
+.titulo-pagina {
+    width: 600px;
+    margin: 2rem solid auto;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+main {
+    width: 800px;
+    border: 1px solid black; 
+    margin: auto;
+    padding: ;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px #888;
+
+}
+.elementos-em-linha {
+    display: flex;
+    justify-content: space-between;
+    gap: ;
+}
+#resultado {
+    border: 1px solid black;
+    height: 2rem;
+    margin: 2rem 0 0;
+}
+botoes {
+    margin: auto 2resm 0;
+    display: flex;
+    gap: 1rem;
+}
+button {
+    width: 100%;
+    line-height: 2.2;
+    
+}
+
+input{
+    width: ;
+    line-
+}

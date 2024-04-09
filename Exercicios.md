@@ -53,9 +53,6 @@ function verificarTriangulo() {
 // valor total da compra efetuada e um código que identifique se o comprador é um cliente comum (1), funcionário (2) ou vip (3).
 
 
-
-
-
 //entrada de dados
 // = determinar se o cliente é 1- cliente, 2- funcionário e 3-vip
 // = informar o total da compra 
