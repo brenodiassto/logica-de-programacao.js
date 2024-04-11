@@ -40,20 +40,23 @@ if(!isNaN(temperaturaAtual)) {
 
 } else if (escalaAtual === 'K') {
 
-    if (escalaConversao == 'C') {
+    if (escalaConversao === 'C') {
         temperaturaConvertida = temperaturaAtual - 273.15;
 
     } else if (escalaConversao === 'F') {
         temperaturaConvertida = temperaturaAtual * 9 / 5 - 459.67;
 
     }else if (escalaConversao === 'K') {
-            msgErro = `ERRO: Escala selecionada: ${escalaConversao}. Selecione uma escala de CONVERSÃO diferente da ATUAL.`;
+            msgErro = `ERRO: Escala selecionada: ${escalaConversao}. 
+            Selecione uma escala de CONVERSÃO diferente da ATUAL.`;
 
     } else {
-        msgErro = `ERRO: Escala selecionada: ${escalaConversao}. Essa escala não existe ou não está desponível neste programa.`;
+        msgErro = `ERRO: Escala selecionada: ${escalaConversao}. 
+        Essa escala não existe ou não está desponível neste programa.`;
 
     } else {
-        msgErro = `ERRO: Escala ATUAL selecionada: ${escalaAtual}. A escala ATUAL não existe ou não está disponível nest programa.`;
+        msgErro = `ERRO: Escala ATUAL selecionada: ${escalaAtual}.
+        A escala ATUAL não existe ou não está disponível nest programa.`;
 
     } 
 }else {

@@ -3,6 +3,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Busca de um nome</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style..css">
+
     <style>
 
         label[for="nome"] {
@@ -12,24 +15,37 @@
         .oculto {
             display: none;
         }
+        .acao-alternativa {
+            background-color: #2ec833;
+            
+        }
+        .acao-alternativa:active {
+            background-color: #7dc380;
+        }
 
     </style>
 </head>
 <body>
+    <main>
 
     <form action="">
 
         <label for="nomeInclusao">Nome para incluir:</label>
         <input type="text" id="nomeInclusao" required autofocus>
+
         <label for="nome">Nome para incluir:</label>
         <input type="text" id="nome" required autofocus>
 
         <button type="reset" id="btCadastrar">Cadastrar</button>
-
-        <button type="button" id="btMostrar">Mostrar</button>
+        <button type="button" id="btMostrar">Pesquisar</button>
         <button type="button" id="btPesquisar" class="oculto">Pesquisar</button>
 
     </form>
+</main>
+    <div class="botoes">
+        <button type="reset" id="btCadastrar"
+        class="acao-positiva"></button>
+    </div>
 
     <div id="resultado"></div>
 
@@ -57,7 +73,7 @@
                     document.querySelector('#btPesquisar').click();
                 }
             }
-        });
+        };
 
                     console.log('ACHEI');
 
