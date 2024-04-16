@@ -232,3 +232,6 @@ Casos de uso:
         * Caracteres
         * Valor abaixo do zero absoluto (0 Kelvin ou -273.15 °C ou  -459.67 °F)
     * A escala atual é igual à de conversão
+    
+
+    ## git log --graph --oneline
