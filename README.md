@@ -235,3 +235,37 @@ Casos de uso:
     
 
     ## git log --graph --oneline
+    ~~~~
+
+    O comando Git `log` exibe o histórico de commits em detalhes. Com as flags  `--graph` e `--online´ exibe o histórico em um formato mais compreensível, através de um grafo (grafo?)
+
+    ### 
+
+    Para alterar o autor de um commit, você pode utilizar o rebase interativo e so comando ´commit --amend´
+
+    ** Antes, porém, verifique se o editor de imagens do commit esta configurado para o editor do próprio VS Code.
+
+
+~~~~bash
+git rebase -i <referenciaCommit>
+~~~~
+
+No editor de commits, altere a instrução de commit desejado de `pic` para `edit`. Em seguida grave e feche o editor.
+
+O rebase fará uma pausa para que você altere as onformações do autor.
+
+~~~~git commit --amend --reset-author --no-edit
+
+
+Caso seu você queira especificar o autor, utilize a flag `--author="Nome do Autor <email@autor>"`, nesse exato formato.
+
+
+caso seu commit seja vazio, acescente ainda a flag `--allow-empty`
+
+Após o reparo do commit, continue o processo do rebase com o comando abaixo.
+
+~~~bash
+git rebase --continue
+~~~~
+
+Finalmente, **confira o novo histórico localmente** e envie ao repositório remoto **forçadamente**.
